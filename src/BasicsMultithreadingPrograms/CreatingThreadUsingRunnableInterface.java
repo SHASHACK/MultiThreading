@@ -14,6 +14,6 @@ public class CreatingThreadUsingRunnableInterface implements Runnable{
 		catch(InterruptedException e) {
 			System.out.println("Interruption occured --> Runnable Interace");
 		}
-		System.out.println("Thread Completed --> Runnable Interace");
+		System.out.println("Thread Completed --> Runnable Interace. Processed" );
 	}
 }
